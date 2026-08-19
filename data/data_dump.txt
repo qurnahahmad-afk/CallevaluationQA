@@ -1,0 +1,22 @@
+
+========== Sheet1 (max_row=15, max_col=1) ==========
+HEADER: FCR 
+R2: Information is not available in Knowledgebase 
+R3: Ticket has to be opened to the backend for resolution 
+R4: Customer has an open ticket that has not been resolved/responded yet 
+
+========== Daily Report (max_row=133, max_col=24) ==========
+HEADER: 
+R2:  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2026-07-19 00:00:00
+R4:  |  |  |  |  |  |  |  |  |  | Daily Monitoring Sheet 
+
+========== Agent Feedback (max_row=125, max_col=22) ==========
+HEADER: Evaluation Date | Agent Name | Coach Name | Email Date/Time | Main Skill | Mistake Type | Link | Caller Number | Call Duration | Monitoring Type | Sub-Type | call subcategory logs/tickets  | Solved Customer Issue (FCR) | FCR Not Achived Reason | Valid Hold | Hold Reason | Valid AHT | Long AHT Reason | Core Issue (RC) | Call Score | Pass/Fail | Feedback
+R2: 2026-07-02 00:00:00 | Marwa Mohd Yasin Saybeh | Esraa mohammad hasan rabah | 2026-07-01 09:16:00 | HMC | Non Critical | 34969420 | 55044419 | 2min 7s | Program | Active listening  | Book appt | No | Process impacts customer experience (Clarify in Comment) |  |  |  |  | Invalid Silence gaps | 95 | Pass | Active listening -Dead Air - Silence gap for more than 10 sec 
+R3: 2026-07-02 00:00:00 | Leen Ziad Mohammad Allaf | Esraa mohammad hasan rabah | 2026-07-01 10:16:00 | HMC |  | 34974396 | 66960566 | 3min 59s | Program |  | Check appt | Yes |  |  |  |  |  |  | 100 | Pass | Good call
+R4: 2026-07-04 00:00:00 | Samer Abdel Monem Naser Alzyoud | Esraa mohammad hasan rabah | 2026-07-02 09:47:00 | HMC | Business Critical | 35023836 | 77282335 | 2min 37s | Program | Control the call/ Comprehension / | Appt reschedule | No | Agent did not take the proper action/Correct Troubleshooting |  |  |  |  | Agent did not take the proper action/Correct Troubleshooting | 25 | Failed | Call Opening - Agent name not clear + Control the call/ Comprehension  - The patient asked to change the hospital for the General Medicine appt from AK to HGH not the Treatment appt
+
+========== Compiled (max_row=1048327, max_col=63) ==========
+HEADER:  |  |  |  |  |  |  |  |  |  | Softskills |  |  |  |  |  | Customer Critical |  |  |  |  |  |  | Business Critical |  |  | Compliance Critical
+R3:  |  |  |  |  |  |  |  |  |  | Non - Critical Error | Non - Critical Error | Non - Critical Error | Non - Critical Error | Non - Critical Error | Non - Critical Error | Customer Critical Error | Customer Critical Error | Customer Critical Error | Customer Critical Error | Customer Critical Error | Customer Critical Error | Customer Critical Error | Business Critical Error | Business Critical Error | Business Critical Error | Complince Critical Error
+R4: Evaluation Date | Agent Name | Coach Name | Email Date/Time | Main Skill | Mistake Type | Link | Caller Number | Call Duration | Monitoring Type | Call Opening/ Closure  | Choice of words / Avoid Slang / Technical Terms/ Customer name | Tone of voice | Showing Empathy / handling objection | Active listening - interrupting  | Hold | Ticket Escalation and Status | Customer Profile/ required data/ creating a ticket  | Transfer Process |  Correct information provided (Knowledge) | Missing Information (Knowledge) | Ticket description | Professionalism/Attitude | Ticket Type and Categorization | Control the call/ Comprehension / |  Tickiting tree | Compliance (Verification, Policy) | DSAT | DSAT reason L1 | DSAT reason L2 | DSAT reason L3 |  Shortmaze Category  |  Shortmaze Sub Category | Repeated Interaction (last 2 days) | Repeated Interaction Reason L1 | Repeated Interaction Reason L2 | Repeated Interaction Reason L3 | Solved Customer Issue (FCR) | FCR Not Achived Reason L1 | FCR Not Achived Reason L2 | FCR Not Achived Reason L3 | Agent follow the service mapping | Not Follow service mapping Reason L1 | Not Follow service mapping Reason L2 | Valid Hold | Hold Reason | Valid AHT | Long AHT Reason | Core Issue (RCA) L1 | Core Issue (RCA) L2 | Core Issue (RCA) L3 | Call Score | Pass/Fail | Customer Verbatum (VOC) | Comment | Call Summary | Feedback to Agent (Based on Core Issue) | Compliance Critical Error | Business Critical Error | Customer Critical Error | Non - Critical Error | Week | Month

@@ -1,0 +1,129 @@
+
+========== REF ==========
+R1: Core Issue (RCA) |  |  |  |  |  | CSAT |  |  | AHT | Hold | Sub-Type
+R2: RCA L1 | RCA L2 | RCA L3 | FCR L1 |  | FCR L3 | 1 (Critical) | Agent | Yes | Exceed timeline on hold or mute | Knowledge Gap (Clarify in Comment) | Call Opening/ Closure 
+R3: Controlable_Factor | Knowledge | Quality of information: Incomplete | Agent_ | Agent | Quality of information: Incomplete | 3 (Non Critical) | Process | No | Documenting CST Complaint | Increased verification time from 2nd-line team | Choice of words / Avoid Slang / Technical Terms/ Customer name
+R4: Uncontrollable_Factor | Skill_Issue | Quality of information: Incorrect | Process_ | Process | Quality of information: Incorrect | 5 (Normal) | Customer |  | Knowledge Gap (Clarify in Comment) | Needed further support | Tone of voice
+R5:  | Communication | Quality of information: Unclear | Customer_ | Customer | Quality of information: Unclear |  | Technical |  | Agent not Aware of AHT (NH only) | Evading CST complaint/issue | Showing Empathy / handling objection/Interrupting the Customer
+R6:  | Agent_Behavior | Agent did not take the proper action/Correct Troubleshooting | Technical_ | Technical | Agent did not take the proper action/Correct Troubleshooting |  |  |  | System Outage (Clarify in Comment) | Not taking ownership of case/issue | Active listening 
+R7:  | CST_Behavior | Agent did not offer additional options/Alternatives |  |  | Agent did not offer additional options/Alternatives |  |  |  | Long Time to Close | Lack of Concentration (re-checking CST issue or solution provided) | Hold
+R8:  | System_Issue | New KB Update (Clarify in Comment) | FRC L2 |  | Agent Didn't show Empathy |  |  |  | Double Chat (NH & Chat only) | Normal | Customer Profile/ required data/ 
+R9:  | Process_Limitation | Rare Case (NHs Only) | Knowledge_ |  | Agent Wasn't Reassuring the CST |  |  |  | Agent didn't retain CST frustration/increased CST frustration |  |  Correct information provided
+R10:  |  | Agent asked CST relevant questions/paraphrasing confirming CST issue | Skill_Issue_ |  | Didn't properly explain the background of the situation/Issue |  |  |  | Lack of Focus |  | Missing Information
+R11:  |  | Agent Didn't show Empathy | Communication_ |  | Follow-up Needed as per Process |  |  |  | Control & Ownership of Call |  | Ticket Escalation and Status
+R12:  |  | Agent Wasn't Reassuring the CST | Agent_Behavior_ |  | Over-Promising on Purpose to Maintain High Scores |  |  |  | Increased verification time from 2nd-line team |  | Ticket description
+R13:  |  | Agent did not use a positive tone | CST_Behavior_ |  | Agent mistreating the customer [e.g., rudeness] |  |  |  | Normal |  | Transfer Process
+R14:  |  | Didn't properly explain the background of the situation/Issue | System_Issue_ |  | Discipline/ Careless |  |  |  |  |  | Professionalism/Attitude
+R15:  |  | Poor Invisitagtion/didn't Check  history & effectively used systems and tools | Process_Limitation_ |  | Credit Seeker/Fraudulent |  |  |  |  |  | Ticket creation and categorization for the closed Interactions
+R16:  |  | High Incoming Concurency (Chat NHs Only) |  |  | CST no Happy with Correct resolution provided (Clarify in Comment) |  |  |  |  |  | Control the call/ Comprehension /
+R17:  |  | Lack of Concentration/Focus |  |  | Technical Issue with Headset (Clarify in Comment) |  |  |  |  |  | Ticketing Tree
+R18:  |  | Active listening/Reading Understanding |  |  | Internet/System Outage (Clarify in Comment)
+R19:  |  | Invalid Silence gaps |  |  | Process impacts customer experience (Clarify in Comment)
+R20:  |  | Invalid Hold time/Silence gap | _Agent_
+R21:  |  | Follow-up Needed as per Process | _Technical_
+R22:  |  | CSA Already Resigned  
+R23:  |  | Over-Promising on Purpose to Maintain High Scores
+R24:  |  | Agent mistreating the customer [e.g., rudeness]
+R25:  |  | Discipline/ Careless
+R26:  |  | Credit Seeker/Fraudulent
+R27:  |  | CST no Happy with Correct resolution provided (Clarify in Comment)
+R28:  |  | Technical Issue with Headset (Clarify in Comment) |  |  | Knowledge Gap (Clarify in Comment)
+R29:  |  | Internet/System Outage (Clarify in Comment) |  |  | Agent did not take the proper action/Correct Troubleshooting
+R30:  |  | Wording on KB Misleading (Clarify in Comment) |  |  | Follow-up Needed as per Process
+R31:  |  | Case Not Clear on KB (Clarify in Comment) |  |  | Discipline/ Careless
+R32:  |  | Process impacts customer experience (Clarify in Comment) |  |  | Technical Issue with Headset (Clarify in Comment)
+R33:  |  |  |  |  | Internet/System Outage (Clarify in Comment)
+
+========== Team Ref ==========
+R1: CAFU Username | Attendance User | MenaMe Code | Team Leader | QA | LOB
+R2: Rakan Abdelhadi | Rakan.Abdelhadi | 13397 | Mohammad Murad | Yazan | Over Night
+R3: Heba Othman | Hiba.Othman | 13069 | Mohammad Murad | Yazan | Escalation
+R4: Bayan Salah | Bayan.Salah | 13451 | Mohammad Murad | Yazan | Escalation
+R5: Hiba Hammoudeh | Hiba.Hammoudeh | 13579 | Mohammad Murad | Yazan | Escalation
+R6: Massa Ahmad | Massa.Alkhatib | 13064 | Mohammad Murad | Yazan | Escalation
+R7: Layan Saleh | Layan.Alnajjar | 12942 | Mohammad Murad | Yazan | Escalation
+R8: Aya Said | Ayah.Alghawi | 10604 | Mohammad Murad | Yazan | Escalation
+R9: Lama Mahmoud | Lama.Alshaikh | 13729 | Mohammad Murad | Yazan | Escalation
+R10: Anas Jawad | Anas.Abuhamidah | 14074 | Mohammad Murad | Ghzaleh | Voice
+R11: Abdalkader Bader | Abedalqader.Katbeh | 14263 | Mohammad Murad | Yazan | Voice
+R12: Malak Mohammad | Malak.Albanna | 13604 | Mohammad Murad | Ghzaleh | Non-Voice
+R13: Anas Hamdan | Anas.Hamdan | 14251 | Mohammad Murad | Ghzaleh | Non-Voice
+R14: Abdallah El Kouch | Abdallah.Elkouch | 14749 | Mohammad Murad | Ghzaleh | Non-Voice
+R15: Mahdi Alobally | Mahdi.Alobally | 14750 | Mohammad Murad | Ghzaleh | Non-Voice
+R16: Said AlSa’di | Said.Alsadi | 14751 | Mohammad Murad | Yazan | Non-Voice
+R17: Abdelrahman Hussein | Abdelrahman.Assaf | 13286 | Rami Abuyounes | Yazan | Over Night
+R18: Abdallah Ahmad | Abdallah.Altiti | 13449 | Rami Abuyounes | Yazan | Over Night
+R19: Basim Mohammad | Bassem.Mohammad | 14084 | Rami Abuyounes | Ghzaleh | Over Night
+R20: Rami Awni | Rami.Hamdan | 14077 | Rami Abuyounes | Yazan | Over Night
+R21: Shahd Khalil | Shahd.Abuserrieh | 14252 | Rami Abuyounes | Yazan | Voice
+R22: Mahmoud Hisham | Mahmoud.Qutaifan | 14259 | Rami Abuyounes | Ghzaleh | Voice
+R23: Liyan Nidal | Liyan.Khaireddin | 11484 | Rami Abuyounes | Ghzaleh | Voice
+R24: Dania Sameer | Danya.Bustamy | 14254 | Rami Abuyounes | Yazan | Non-Voice
+R25: Farah Ismael | Farah.Ismael | 13726 | Rami Abuyounes | Ghzaleh | Non-Voice
+R26: Fahed Khaled | Fahad.Sabha | 13735 | Rami Abuyounes | Yazan | Non-Voice
+R27: Hala Mohammed | Hala.Alnaimat | 14070 | Rami Abuyounes | Ghzaleh | Non-Voice
+R28: Maya Hashem | Maya.Helweh | 14261 | Rami Abuyounes | Ghzaleh | Non-Voice
+R29: Yasmeen Omar | Yasmeen.Hussein | 14265 | Rami Abuyounes | Yazan | Non-Voice
+R30: Farouq Shahrure | Farouq.Shahrure | 14746 | Rami Abuyounes | Ghzaleh | Voice
+R31: Esraa Sidair | esraa.sidair | 10728 | Rami Abuyounes | Yazan | Non-Voice
+R32: Ahed Hawas | Ahed.Abuhawas | 14745 | Rami Abuyounes | Yazan | Non-Voice
+R33: Rahaf Habboub | Rahaf.Habboub | 14747 | Rami Abuyounes | Ghzaleh | Non-Voice
+R34: Suliman Saleh | Suleiman.Saleh | 14081 | Sobhi Akilah | Ghzaleh | Voice
+R35: Rozan Mohsen | Rozan.Alhwaidi | 13450 | Sobhi Akilah | Ghzaleh | Voice
+R36: Marya Khaldoon | Marya.Yahya | 14267 | Sobhi Akilah | Ghzaleh | Voice
+R37: Hussam Hasan | Husam.Albaw | 14255 | Sobhi Akilah | Yazan | Voice
+R38: Sondos Nader | Sondos.Alakhras | 13246 | Sobhi Akilah | Yazan | Voice
+R39: Tawfiq Salah | Tawfiq.Assalah | 14258 | Sobhi Akilah | Yazan | Non-Voice
+R40: Zeina Zeyad | Zaineh.Habibeh | 14073 | Sobhi Akilah | Yazan | Non-Voice
+R41: Razan Ersan | Razan.Ersan | 13725 | Sobhi Akilah | Ghzaleh | Non-Voice
+R42: Adham Adnan | Adham.Alshorman | 14080 | Sobhi Akilah | Ghzaleh | Non-Voice
+R43: Salma Abdallah | Salma.Alshishani | 14253 | Sobhi Akilah | Ghzaleh | Non-Voice
+R44: Marah Marie | Marah.Kotban | 14262 | Sobhi Akilah | Ghzaleh | Non-Voice
+R45: Majd Al-Deen | Majd.abuobead | 14017 | Sobhi Akilah | Ghzaleh | Voice
+R46: Saif Abu Halawa | Saif.Abuhalawa | 14748 | Sobhi Akilah | Yazan | Non-Voice
+R47: Sumaia Yousef | sumaia.yousef | 14198 | Sobhi Akilah | Ghzaleh | Non-Voice
+R48: Waleed Yassin | Waleed.Sheikh | 14753 | Sobhi Akilah | Ghzaleh | Non-Voice
+R49: Mohammad Samir | Mohammad.Abuzeineh | 13383 | #N/A | #N/A | #N/A
+
+========== Glossary ==========
+R1: Section  | Attribute  | Glossary 
+R2: Call Opening  | Was the call opening was clear & within the onset time without distractions (5 seconds) | Agent should be ready to take the call.
+Headset and mic should be always in place. 
+Agent should be seated in a quite area where he shouldn’t be distracted.
+The call should be answered within 5 seconds. 
+R3:  | Personalized the Greeting ( Company name - Agent name) | The greeting should be mentioned in full mentioning the following details ( Thank you for calling(Brand Name), (Agent name)is speaking
+R4:  | Assistance offered through using phrases (Example How May I Help you , How can I assist you) | Assistance should be offered during the greeting example: How can I help you, How may I assist you
+R5: Verfication  | Verfiy customer phone number / member ID number/ order number whenever needed  | Agent need to confirm the phone number or order number in order to verfiy customer profile, for Shukran email or DOB will be required to verfiy any change in customer account 
+R6: Telephone Etiquettes | Did the agent assure help  | Assuring help after customer mentioning his/her concern by saying sure I will do my best to help you , of course I will try to check all possible reasons to help you 
+R7:  | Asking relevant or logical questions to identify customer concern (probing)/paraphrasing | Probing should be done using open ended questions like could you tell me more about your order or what happened exactly /Agent need to paraphrase customer inqury to ensure that we are aligned with the customer request 
+R8:  | the tone voice was matching the customer enthusiasm and or excitement ( Voice Impact) | Agent tone of voice should be smiley and match the customer tone of voice, sleepy/negative/ monotonous tone of voice will
+R9:  | build a good rapport with the customer using empathy or good response  | Building rapport must be done by using smiley tone of voice 
+showing empathy/ good response should be done immediately by apologizing to the customer when needed or reflect his emotions 
+R10:  | addressed the customer by using his/her name with the appropriate title (Except KSA) | Using customer name during the call at least 3 times depend on the call duration(beginning of the call , middle of the call& end of the call)
+R11:  | speak with the customer in proper language/ style/negative words  | Agent should use same language that customer using and to avoid ordering language or negative words 
+R12:  | Call Duration was aligned with the customer request  | Call duration should be matching the call scenario not too long and not too short 
+R13:  | Did the agent focused on the customer request without missing or requesting repeating his query  | Focus with the customer inquries without missing any of it or requesting the customer to repeat it ( Lack of focus)
+R14:  | Agent did not interrupt / speak over the customer "Clipping" | Agent should wait for the customer to complete his sentence without interoution or asking the customer to stop talking in order for him to speak 
+R15:  | Did the agent showed confidence or expertise in providing infromation to the customer  | agent should be easy to be understood by using structured and organized manner to explain things to customer 
+R16:  | Did the agent use slangs/jargons | Using any slang word like ( Ok, yea, Nop, Wanna , Gonna) or Jargons like internal words  ( WWD,FD, etc.) is not allowed 
+R17: Hold & transfer protocol | informed the customer with the held activities during the call ( Dead air) | Dead Air should not exceed 30 sec max per pause and will be scored based on the call duration , agent should engage the customer with the activites to avoid the dead air 
+R18:  | Did the agent follow the correct hold protocol | the Hold script should be used for placing the call on hold and it should not exceed 2 mins per hold ( May I place the call on hold for 2 mins in order to check more information for you ) 
+R19:  | Did the agent follow the correct call transfer protocol | in case required , call should be transferred warmly where the agent need to inform the BO agent or team leader about the customer problem then need to provide the customer with name of the person who will take over the call 
+R20:  | Using Mute instead of Hold | Mute is not allowed during the call for any reason, in case the agent need any assiatnce , they can use the hold 
+R21: Call Closing | Did the agent offer the customer further assistance  | Agent should offer any further assistance to the customer even if the customer asked for any inquiry , customer should be offered further assistance again 
+R22:  | Did the Agent promote the C-Sat survey | C-sat is mandatory to be mentioned by end of each call unless the customer has not been served due to system issue 
+R23:  | Did the Agent promote self service/ app download  | Agent to promote the app or guide the customer of any self service that he can do using the mobile app / offer the customer to download the app for better expiernce 
+R24:  | Did the Agent recap and close the call properly  | Call closure should be branded and to include a recap for the case resolution 
+R25: Process  | Did the agent gather the right information needed to check customer request | Agent should check the customer history and if the same case escalated before also collect from the customer any related information in case he called before 
+R26:  | Did the agent checked any related tickets/notes/child ticket for customer issue in case any | Any feedback that has been provide on any previous tickets agent should use it and inform the customer about it , also in case any reply that should be gathered from the customer to update the ticket it should be done as well 
+R27:  | Did the agent offered/ Suggested all reasonable alternatives to fulfil customer's needs  | Any feedback that has been provide on any previous tickets agent should use it and inform the customer about it , also in case any reply that should be gathered from the customer to update the ticket it should be done as well 
+R28:  | Did the agent take ownership by set caller expection on time frame, process , etc. | agents to provide the customer with the time frame /Proecess resolution time 
+R29: Documention  | Did the agent dispose the call correctly  | ticket disposition must be correct with full notes
+R30:  | Ticket remarks need to be added clearly by agent in case of new ticket or private note. | Ticekt remerks should represent the issue of the customer with the clear action that needs to be taken 
+R31:  | Did the agent create a new ticket rather than updating the existing ticket. | Agent must avoid creating a new ticekt since another old ticekt is opened, and he needs to add a private note about the customer follow up 
+R32: Auto Fail | Did the agent offered/ Suggested all reasonable alternatives to fulfil customer's needs  | Agent need to provide the customer with all the possible resolutions if any as well as guiding or educating the customer about the next steps 
+R33:  | Did the Agent mislead the customer or used deceptive conduct | Agent should provide the customer with all the correct information related to his query ( refund timeline, return processed.) falling to provide all related information will be considered as misleading the customer 
+R34:  | Did the agent create the right ticket on FD/Did the agent follow the correct escalation process  | Correct escalation needs to be done, as per the scenario to the relevant team with all the correct details. 
+In case if issue needs to be raised agent should raise it to the concerned team
+R35:  | Has the agent behavior was falling under Misrepresentation ( Yelling, screaming, rudeness & sarcasm)  | Any misbehavior showed by the agent( rudeness, Screaming , yelling or sarcasm ) is not allowed and will be falling under Zero tolerance policy
+R36:  | Call Avoidance ( Delayed call opening , disconnecting the calls )  | any delay on call openeing will be consider as avoiding calls as well as disconeecting the call/using system issue verbiage without a confirmation by TL will be considered as call avoidance 
