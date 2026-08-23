@@ -1,0 +1,60 @@
+/home/appuser/.local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+========== QA Scorecard (max_row=59, max_col=7) ==========
+R1:  |  |  | Evaluation Date | 2026-07-19 00:00:00
+R2:  |  |  | Agent Name
+R3:  |  |  | Coach Name
+R4:  |  |  | Email Date/Time
+R5:  |  |  | Main Skill
+R6:  |  |  | Mistake Type
+R7:  |  |  | Link
+R8:  |  |  | Caller Number
+R9:  |  |  | Call Duration
+R10:  |  |  | Monitoring Type
+R11: Softskills | 0 | Non - Critical Error | Call Opening/ Closure 
+R12:  |  | Non - Critical Error | Choice of words / Avoid Slang / Technical Terms/ Customer name
+R13:  |  | Non - Critical Error | Tone of voice
+R14:  |  | Non - Critical Error | Showing Empathy / handling objection
+R15:  |  | Non - Critical Error | Active listening - interrupting 
+R16:  |  | Non - Critical Error | Hold
+R17: Customer Critical | 0 | Customer Critical Error | Ticket Escalation and Status
+R18:  |  | Customer Critical Error | Customer Profile/ required data/ creating a ticket 
+R19:  |  | Customer Critical Error | Transfer Process
+R20:  |  | Customer Critical Error |  Correct information provided (Knowledge)
+R21:  |  | Customer Critical Error | Missing Information (Knowledge)
+R22:  |  | Customer Critical Error | Ticket description
+R23:  |  | Customer Critical Error | Professionalism/Attitude
+R24: Business Critical | 0 | Business Critical Error | Ticket Type and Categorization
+R25:  |  | Business Critical Error | Control the call/ Comprehension /
+R26:  |  | Business Critical Error |  Tickiting tree
+R27: Compliance Critical | 0 | Complince Critical Error | Compliance (Verification, Policy)
+R28:  | 30 | Non - Scorable | DSAT
+R29:  |  | Non - Scorable | DSAT reason L1
+R30:  |  | Non - Scorable | DSAT reason L2
+R31:  |  | Non - Scorable | DSAT reason L3 |  |  
+R32:  |  | Non - Scorable | Sub-Type
+R33:  |  | Non - Scorable | call subcategory logs/tickets 
+R34:  |  | Non - Scorable | Repeated Interaction (last 2 days)
+R35:  |  | Non - Scorable | Repeated Interaction Reason L1
+R36:  |  | Non - Scorable | Repeated Interaction Reason L2
+R37:  |  | Non - Scorable | Repeated Interaction Reason L3
+R38:  |  | Non - Scorable | Solved Customer Issue (FCR)
+R39:  |  | Non - Scorable | FCR Not Achived Reason L1
+R40:  |  | Non - Scorable | FCR Not Achived Reason L2
+R41:  |  | Non - Scorable | FCR Not Achived Reason L3
+R42:  |  | Non - Scorable | Agent follow the service mapping
+R43:  |  | Non - Scorable | Not Follow service mapping Reason L1
+R44:  |  | Non - Scorable | Not Follow service mapping Reason L2
+R45:  |  | Non - Scorable | Valid Hold
+R46:  |  | Non - Scorable | Hold Reason
+R47:  |  | Non - Scorable | Valid AHT
+R48:  |  | Non - Scorable | Long AHT Reason
+R49:  |  | Non - Scorable | Core Issue (RCA) L1
+R50:  |  | Non - Scorable | Core Issue (RCA) L2
+R51:  |  | Non - Scorable | Core Issue (RCA) L3
+R52:  |  |  | Call Score | 30
+R53:  |  |  | Pass/Fail | Pass
+R54:  |  |  | Customer Verbatum (VOC)
+R55:  |  |  | Comment
+R56:  |  |  | Call Summary
+R57:  |  |  | Feedback to Agent (Based on Core Issue)
