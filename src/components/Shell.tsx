@@ -4,6 +4,7 @@ import {
   GraduationCap, GitCompare, BarChart3, PieChart, UserCog, FolderKanban,
   TrendingUp, ClipboardCheck, Bell, ScrollText, Palette, ChevronRight,
   LogOut, Settings, KeyRound, X, ShieldCheck, AlertTriangle, Trash2,
+  FileText, Calculator, Sparkles, BellRing, Settings2,
 } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 import { navigate, useRoute, type Route } from '../lib/router';
@@ -29,6 +30,9 @@ const NAV_SECTIONS: NavSection[] = [
       { route: { name: 'calibration' }, labelKey: 'nav.calibration', defaultLabel: 'Calibration', icon: GitCompare, permission: 'manage_calibration' },
       { route: { name: 'analysis' }, labelKey: 'nav.analysis', defaultLabel: 'Analysis', icon: PieChart, permission: 'view_analysis' },
       { route: { name: 'repeated-failure' }, labelKey: 'nav.repeated_failure', defaultLabel: 'Repeated Failure', icon: AlertTriangle, permission: 'view_evaluations' },
+      { route: { name: 'exams' }, labelKey: 'nav.exams', defaultLabel: 'Monthly Exams', icon: FileText, permission: 'view_exams' },
+      { route: { name: 'sample-size' }, labelKey: 'nav.sample_size', defaultLabel: 'Sample Size', icon: Calculator, permission: 'view_sample_size' },
+      { route: { name: 'ai-analytics' }, labelKey: 'nav.ai_analytics', defaultLabel: 'AI Analytics', icon: Sparkles, permission: 'view_ai_analytics' },
     ],
   },
   {
@@ -51,12 +55,16 @@ const NAV_SECTIONS: NavSection[] = [
       { route: { name: 'branding' }, labelKey: 'nav.branding', defaultLabel: 'System Branding', icon: Palette, permission: 'manage_users' },
       { route: { name: 'system-admin' }, labelKey: 'nav.system_admin', defaultLabel: 'System Administration', icon: ShieldCheck, permission: 'manage_system_admin' },
       { route: { name: 'data-clearance' }, labelKey: 'nav.data_clearance', defaultLabel: 'Data Clearance', icon: Trash2, permission: 'data_clearance' },
+      { route: { name: 'notifications' }, labelKey: 'nav.notifications', defaultLabel: 'Notifications', icon: BellRing, permission: 'view_notifications' },
+      { route: { name: 'system-settings' }, labelKey: 'nav.system_settings', defaultLabel: 'System Settings', icon: Settings2, permission: 'manage_system_settings' },
     ],
   },
 ];
 
 const AGENT_NAV: NavItem[] = [
   { route: { name: 'agent-portal' }, labelKey: 'nav.agent_portal', defaultLabel: 'My Portal', icon: Bell },
+  { route: { name: 'exams' }, labelKey: 'nav.exams', defaultLabel: 'Monthly Exams', icon: FileText, permission: 'view_exams' },
+  { route: { name: 'notifications' }, labelKey: 'nav.notifications', defaultLabel: 'Notifications', icon: BellRing, permission: 'view_notifications' },
   { route: { name: 'guide-book' }, labelKey: 'nav.guide_book', defaultLabel: 'Guide Book', icon: BookOpen, permission: 'view_glossary' },
 ];
 
@@ -84,6 +92,11 @@ function getBreadcrumb(route: Route, L: (k: string, f?: string) => string): { la
     'guide-book': { labelKey: 'nav.guide_book', default: 'Guide Book' },
     'system-admin': { labelKey: 'nav.system_admin', default: 'System Administration' },
     'data-clearance': { labelKey: 'nav.data_clearance', default: 'Data Clearance' },
+    exams: { labelKey: 'nav.exams', default: 'Monthly Exams' },
+    notifications: { labelKey: 'nav.notifications', default: 'Notifications' },
+    'sample-size': { labelKey: 'nav.sample_size', default: 'Sample Size' },
+    'ai-analytics': { labelKey: 'nav.ai_analytics', default: 'AI Analytics' },
+    'system-settings': { labelKey: 'nav.system_settings', default: 'System Settings' },
     branding: { labelKey: 'nav.branding', default: 'System Branding' },
     'agent-portal': { labelKey: 'nav.agent_portal', default: 'My Portal' },
   };

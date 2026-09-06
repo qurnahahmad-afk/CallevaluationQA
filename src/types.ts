@@ -240,7 +240,9 @@ export type PermissionKey =
   | 'modify_evaluation' | 'modify_score' | 'data_clearance'
   | 'view_agents_page' | 'create_calibration' | 'manage_calibration_sessions'
   | 'review_expert_evaluations' | 'compare_coach_expert' | 'finalize_calibration'
-  | 'manage_system_admin';
+  | 'manage_system_admin'
+  | 'view_exams' | 'manage_exams' | 'view_sample_size' | 'view_ai_analytics'
+  | 'view_notifications' | 'manage_system_settings';
 
 export type RolePermissions = {
   role: Role;
@@ -519,4 +521,85 @@ export type CoachingSession = {
   agent?: Pick<Agent, 'id' | 'agent_name' | 'lob' | 'team_leader' | 'coach_name' | 'manager_name'> | null;
   evaluation?: Pick<Evaluation, 'id' | 'call_score' | 'pass_fail' | 'evaluation_date' | 'transaction_link' | 'task_type' | 'transaction_type' | 'main_skill'> | null;
   project?: Pick<Project, 'id' | 'name'> | null;
+};
+
+
+export type ExamQuestion = {
+  type: 'multiple_choice' | 'single_choice' | 'true_false' | 'yes_no' | 'short_answer' | 'numeric' | 'rating';
+  question: string;
+  options: string[];
+  correct_answer: string | null;
+  points: number;
+};
+
+export type Exam = {
+  id: string;
+  title: string;
+  description: string | null;
+  project_id: string | null;
+  lob_id: string | null;
+  passing_score: number;
+  questions: ExamQuestion[];
+  status: 'draft' | 'published' | 'archived';
+  assigned_to: string[];
+  created_by: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+export type ExamAttempt = {
+  id: string;
+  exam_id: string;
+  user_id: string;
+  answers: Record<string, string | string[]>;
+  score: number;
+  max_score: number;
+  passed: boolean;
+  started_at: string;
+  submitted_at: string | null;
+  status: 'in_progress' | 'submitted' | 'graded';
+  created_at: string;
+};
+
+export type SampleSizeCalculation = {
+  id: string;
+  project_id: string | null;
+  lob_id: string | null;
+  population_size: number;
+  confidence_level: number;
+  margin_error: number;
+  calculated_size: number;
+  created_by: string | null;
+  created_at: string;
+};
+
+export type RandomizationTransaction = {
+  id: string;
+  project_id: string | null;
+  lob_id: string | null;
+  transaction_ids: string[];
+  assigned_to: string[];
+  evaluated: boolean;
+  sample_size_id: string | null;
+  created_at: string;
+};
+
+export type RandomizationAssignment = {
+  id: string;
+  project_id: string | null;
+  lob_id: string | null;
+  sample_size_id: string | null;
+  assigned_to: string[];
+  transaction_count: number;
+  created_at: string;
+};
+
+export type SystemSetting = {
+  id: string;
+  key: string;
+  value: string;
+  category: string;
+  description: string | null;
+  updated_by: string | null;
+  updated_at: string;
 };

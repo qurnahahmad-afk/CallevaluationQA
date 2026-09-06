@@ -24,6 +24,11 @@ import { LoginPage } from './pages/LoginPage';
 import { SystemAdminPage } from './pages/SystemAdminPage';
 import { RepeatedFailurePage } from './pages/RepeatedFailurePage';
 import { DataClearancePage } from './pages/DataClearancePage';
+import { ExamsPage } from './pages/ExamsPage';
+import { NotificationsPage } from './pages/NotificationsPage';
+import { SampleSizePage } from './pages/SampleSizePage';
+import { AIAnalyticsPage } from './pages/AIAnalyticsPage';
+import { SystemSettingsPage } from './pages/SystemSettingsPage';
 import { LoadingState } from './components/ui';
 
 function AppContent() {
@@ -54,6 +59,11 @@ function AppContent() {
       {route.name === 'branding' && <BrandingPage />}
       {route.name === 'system-admin' && <SystemAdminPage />}
       {route.name === 'data-clearance' && <DataClearancePage />}
+      {route.name === 'exams' && <ExamsPage />}
+      {route.name === 'notifications' && <NotificationsPage />}
+      {route.name === 'sample-size' && <SampleSizePage />}
+      {route.name === 'ai-analytics' && <AIAnalyticsPage />}
+      {route.name === 'system-settings' && <SystemSettingsPage />}
     </Shell>
   );
 }

@@ -21,7 +21,12 @@ export type Route =
   | { name: 'branding' }
   | { name: 'system-admin' }
   | { name: 'repeated-failure' }
-  | { name: 'data-clearance' };
+  | { name: 'data-clearance' }
+  | { name: 'exams' }
+  | { name: 'notifications' }
+  | { name: 'sample-size' }
+  | { name: 'ai-analytics' }
+  | { name: 'system-settings' };
 
 function parseHash(): Route {
   const h = window.location.hash.replace(/^#\/?/, '');
@@ -48,6 +53,11 @@ function parseHash(): Route {
   if (parts[0] === 'system-admin') return { name: 'system-admin' };
   if (parts[0] === 'repeated-failure') return { name: 'repeated-failure' };
   if (parts[0] === 'data-clearance') return { name: 'data-clearance' };
+  if (parts[0] === 'exams') return { name: 'exams' };
+  if (parts[0] === 'notifications') return { name: 'notifications' };
+  if (parts[0] === 'sample-size') return { name: 'sample-size' };
+  if (parts[0] === 'ai-analytics') return { name: 'ai-analytics' };
+  if (parts[0] === 'system-settings') return { name: 'system-settings' };
   return { name: 'dashboard' };
 }
 
@@ -70,6 +80,11 @@ export function navigate(route: Route) {
     : route.name === 'system-admin' ? '#/system-admin'
     : route.name === 'repeated-failure' ? '#/repeated-failure'
     : route.name === 'data-clearance' ? '#/data-clearance'
+    : route.name === 'exams' ? '#/exams'
+    : route.name === 'notifications' ? '#/notifications'
+    : route.name === 'sample-size' ? '#/sample-size'
+    : route.name === 'ai-analytics' ? '#/ai-analytics'
+    : route.name === 'system-settings' ? '#/system-settings'
     : '#/';
   window.location.hash = path;
 }
